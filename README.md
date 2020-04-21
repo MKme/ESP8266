@@ -58,7 +58,7 @@ LOLIN Variants https://amzn.to/2XSdjrP
 | SDA  | D2 |
 | SCL| D1 |
 |GND   | GND |
-|VCC  | 3.3V ONLY!  |
+|VCC  | 3.3V or 5V (depends on display)  |
 
 ### Useful Stuffz
 
