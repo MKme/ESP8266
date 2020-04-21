@@ -24,9 +24,11 @@ Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
 
 http://mkme.org/forum/
 
-### FULL Video Tutorial:
+### FULL Video Tutorials:
 
-tbd
+SD Card Use:
+
+TBD
 
 ### BUY THE SUPPLIES HERE:
 
@@ -38,8 +40,6 @@ ESP01 https://amzn.to/2RSAvlR
 
 LOLIN Variants https://amzn.to/2XSdjrP
 
-
-More videos and information at http://youtube.com/mkmeorg or http://www.mkme.org
 
 ### Wiring SD Card to WEMOS D1 Mini Board
 | Pin On SD Reader | Pin on D1 Mini |
@@ -53,3 +53,5 @@ More videos and information at http://youtube.com/mkmeorg or http://www.mkme.org
 
 
 ### Useful Stuffz
+
+More videos and information at http://youtube.com/mkmeorg or http://www.mkme.org
