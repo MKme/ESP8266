@@ -22,11 +22,11 @@ Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
 
 ### Discussion and further info I figure out (if any):
 
-http://mkme.org/forum/viewtopic.php?f=2&p=1428#p1428
+http://mkme.org/forum/
 
 ### FULL Video Tutorial:
 
-https://www.youtube.com/watch?v=7JBulQ3gaoc
+tbd
 
 ### BUY THE SUPPLIES HERE:
 
@@ -44,14 +44,12 @@ More videos and information at http://youtube.com/mkmeorg or http://www.mkme.org
 ### Wiring SD Card to WEMOS D1 Mini Board
 | Pin On SD Reader | Pin on D1 Mini |
 | ---------- |----------------|
-| LED  | 3.3 or 5V depending on your display  |
-| SCK  | D13 |
-| SDA  | D11 (MOSI) |
-| A0   | D8 |
-| RST  | D9  |
-| CS   | D10 |
+| SCK  | D5 |
+| MISO| D6 |
+| MOSI  | D7 |
+| CS  | D8  |
 |GND   | GND |
-|VCC  | 3.3 or 5V depending on your display  |
+|VCC  | 3.3V ONLY!  |
 
 
 ### Useful Stuffz
