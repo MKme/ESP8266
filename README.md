@@ -22,13 +22,13 @@ Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>
 
 ### Discussion and further info I figure out (if any):
 
-http://mkme.org/forum/
+SD Card Use:
+http://mkme.org/forum/viewtopic.php?f=14&t=1126&p=1430#p1430
 
 ### FULL Video Tutorials:
 
 SD Card Use:
-
-TBD
+https://youtu.be/y-P627KBLBw
 
 ### BUY THE SUPPLIES HERE:
 
