@@ -78,34 +78,23 @@ Text GLabel 7850 4450 0    50   Input ~ 0
 Text GLabel 7850 4350 0    50   Input ~ 0
 GND
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J3
 U 1 1 601C1F32
 P 8050 4350
-F 0 "J?" H 8050 4500 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 7300 4600 50  0000 L CNN
-F 2 "" H 8050 4350 50  0001 C CNN
+F 0 "J3" H 8050 4500 50  0000 L CNN
+F 1 "Vin" H 8000 4600 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal" H 8050 4350 50  0001 C CNN
 F 3 "~" H 8050 4350 50  0001 C CNN
 	1    8050 4350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x08 J?
-U 1 1 601C69D8
-P 7000 5300
-F 0 "J?" H 7080 5292 50  0000 L CNN
-F 1 "Screw_Terminal_01x08" H 7080 5201 50  0000 L CNN
-F 2 "" H 7000 5300 50  0001 C CNN
-F 3 "~" H 7000 5300 50  0001 C CNN
-	1    7000 5300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x08 J?
+L Connector:Screw_Terminal_01x08 J9
 U 1 1 601CC4BF
 P 10550 5250
-F 0 "J?" H 10450 5800 50  0000 L CNN
-F 1 "Screw_Terminal_01x08" H 9900 5700 50  0000 L CNN
-F 2 "" H 10550 5250 50  0001 C CNN
+F 0 "J9" H 10450 5800 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H 10200 5650 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00293_1x08_P5.08mm_Horizontal" H 10550 5250 50  0001 C CNN
 F 3 "~" H 10550 5250 50  0001 C CNN
 	1    10550 5250
 	1    0    0    -1  
@@ -143,10 +132,10 @@ D0
 Text GLabel 7700 5300 2    50   Input ~ 0
 SCK
 $Comp
-L MCU_Module:WeMos_D1_mini U?
+L MCU_Module:WeMos_D1_mini U1
 U 1 1 601B58E0
 P 8800 5300
-F 0 "U?" H 8350 4400 50  0000 C CNN
+F 0 "U1" H 8350 4400 50  0000 C CNN
 F 1 "WeMos_D1_mini" H 8400 4500 50  0000 C CNN
 F 2 "Module:WEMOS_D1_mini_light" H 8800 4150 50  0001 C CNN
 F 3 "https://wiki.wemos.cc/products:d1:d1_mini#documentation" H 6950 4150 50  0001 C CNN
@@ -154,12 +143,12 @@ F 3 "https://wiki.wemos.cc/products:d1:d1_mini#documentation" H 6950 4150 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x08_Female J?
+L Connector:Conn_01x08_Female J2
 U 1 1 601AFC64
 P 7500 5300
-F 0 "J?" H 7400 5850 50  0000 C CNN
+F 0 "J2" H 7400 5850 50  0000 C CNN
 F 1 "Conn_01x08_Female" H 7300 5750 50  0000 C CNN
-F 2 "" H 7500 5300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 7500 5300 50  0001 C CNN
 F 3 "~" H 7500 5300 50  0001 C CNN
 	1    7500 5300
 	-1   0    0    -1  
@@ -169,92 +158,83 @@ Text GLabel 8900 4500 1    50   Input ~ 0
 Text GLabel 8700 4500 1    50   Input ~ 0
 5V
 $Comp
-L Connector:Conn_01x08_Female J?
+L Connector:Conn_01x08_Female J7
 U 1 1 601B0B47
 P 10100 5250
-F 0 "J?" H 9950 5850 50  0000 L CNN
+F 0 "J7" H 9950 5850 50  0000 L CNN
 F 1 "Conn_01x08_Female" H 9650 5750 50  0000 L CNN
-F 2 "" H 10100 5250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 10100 5250 50  0001 C CNN
 F 3 "~" H 10100 5250 50  0001 C CNN
 	1    10100 5250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x08_Female J?
-U 1 1 601FC006
-P 10000 3150
-F 0 "J?" H 9850 3750 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 9550 3650 50  0000 L CNN
-F 2 "" H 10000 3150 50  0001 C CNN
-F 3 "~" H 10000 3150 50  0001 C CNN
-	1    10000 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x08_Female J?
-U 1 1 6020087D
-P 10400 3150
-F 0 "J?" H 10250 3750 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 9950 3650 50  0000 L CNN
-F 2 "" H 10400 3150 50  0001 C CNN
-F 3 "~" H 10400 3150 50  0001 C CNN
-	1    10400 3150
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10200 2850
-NoConn ~ 10200 2950
-NoConn ~ 10200 3050
-NoConn ~ 10200 3150
-NoConn ~ 10200 3250
-NoConn ~ 10200 3350
-NoConn ~ 10200 3450
-NoConn ~ 10200 3550
-NoConn ~ 9800 3550
-NoConn ~ 9800 3450
-NoConn ~ 9800 3350
-NoConn ~ 9800 3250
-NoConn ~ 9800 3150
-NoConn ~ 9800 3050
-NoConn ~ 9800 2950
-NoConn ~ 9800 2850
-$Comp
-L Connector:Conn_01x08_Female J?
-U 1 1 602079FD
-P 9100 3150
-F 0 "J?" H 8950 3750 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 8650 3650 50  0000 L CNN
-F 2 "" H 9100 3150 50  0001 C CNN
-F 3 "~" H 9100 3150 50  0001 C CNN
-	1    9100 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x08_Female J?
-U 1 1 60207A07
-P 9500 3150
-F 0 "J?" H 9350 3750 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 9050 3650 50  0000 L CNN
-F 2 "" H 9500 3150 50  0001 C CNN
-F 3 "~" H 9500 3150 50  0001 C CNN
-	1    9500 3150
-	1    0    0    -1  
-$EndComp
-NoConn ~ 9300 2850
-NoConn ~ 9300 2950
-NoConn ~ 9300 3050
-NoConn ~ 9300 3150
-NoConn ~ 9300 3250
-NoConn ~ 9300 3350
-NoConn ~ 9300 3450
-NoConn ~ 9300 3550
-NoConn ~ 8900 3550
-NoConn ~ 8900 3450
-NoConn ~ 8900 3350
-NoConn ~ 8900 3250
-NoConn ~ 8900 3150
-NoConn ~ 8900 3050
-NoConn ~ 8900 2950
-NoConn ~ 8900 2850
-NoConn ~ 4000 6700
 NoConn ~ 12950 3350
+$Comp
+L Connector:Screw_Terminal_01x08 J1
+U 1 1 601C69D8
+P 7000 5400
+F 0 "J1" H 7080 5392 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H 7080 5301 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00293_1x08_P5.08mm_Horizontal" H 7000 5400 50  0001 C CNN
+F 3 "~" H 7000 5400 50  0001 C CNN
+	1    7000 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male I2C1
+U 1 1 601CC336
+P 9500 4100
+F 0 "I2C1" H 9608 4381 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 9608 4290 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9500 4100 50  0001 C CNN
+F 3 "~" H 9500 4100 50  0001 C CNN
+	1    9500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male SPI1
+U 1 1 601CE144
+P 10350 4100
+F 0 "SPI1" H 10458 4481 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 10458 4390 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 10350 4100 50  0001 C CNN
+F 3 "~" H 10350 4100 50  0001 C CNN
+	1    10350 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 9700 4000 2    50   Input ~ 0
+GND
+Text GLabel 9700 4100 2    50   Input ~ 0
+3v3
+Text GLabel 9700 4200 2    50   Input ~ 0
+SCL
+Text GLabel 9700 4300 2    50   Input ~ 0
+SDA
+Text GLabel 10550 3900 2    50   Input ~ 0
+3v3
+Text GLabel 10550 4000 2    50   Input ~ 0
+CS
+Text GLabel 10550 4100 2    50   Input ~ 0
+MOSI
+Text GLabel 10550 4200 2    50   Input ~ 0
+SCK
+Text GLabel 10550 4300 2    50   Input ~ 0
+MISO
+Text GLabel 10550 4400 2    50   Input ~ 0
+GND
+$Comp
+L power:GND #PWR0101
+U 1 1 601E6FC4
+P 9050 6200
+F 0 "#PWR0101" H 9050 5950 50  0001 C CNN
+F 1 "GND" H 9055 6027 50  0000 C CNN
+F 2 "" H 9050 6200 50  0001 C CNN
+F 3 "" H 9050 6200 50  0001 C CNN
+	1    9050 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 6050 9050 6050
+Wire Wire Line
+	9050 6050 9050 6200
 $EndSCHEMATC
