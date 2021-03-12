@@ -32,6 +32,8 @@ https://youtu.be/y-P627KBLBw
 
 ### BUY THE SUPPLIES HERE:
 
+Buy a breakout board here: https://store.mkme.org/?product=wemos-d1-mini-dmb-breakout-pcb-with-screw-terminals-v1
+
 Buy the D1 Mini here: https://amzn.to/34XAxhJ
 
 SD Card Reader https://amzn.to/2XPDv6B
