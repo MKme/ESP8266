@@ -65,5 +65,3 @@ LOLIN Variants https://amzn.to/2XSdjrP
 ### Useful Stuffz
 
 More videos and information at http://youtube.com/mkmeorg or http://www.mkme.org
-
-This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. https://creativecommons.org/licenses/by-nc/4.0/ See notes.h and comments in main code for detailed lineage/license info
